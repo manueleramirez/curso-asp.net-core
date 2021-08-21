@@ -1,0 +1,40 @@
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/appsettings.Development.json
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/appsettings.json
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/Practica 1
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/Practica 1.deps.json
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/Practica 1.runtimeconfig.json
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/Practica 1.runtimeconfig.dev.json
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/Practica 1.dll
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/ref/Practica 1.dll
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/Practica 1.pdb
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/Practica 1.Views.dll
+/home/em-master/C# practice/Practica 1/bin/Debug/net5.0/Practica 1.Views.pdb
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.csproj.AssemblyReference.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.GeneratedMSBuildEditorConfig.editorconfig
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.AssemblyInfoInputs.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.AssemblyInfo.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.csproj.CoreCompileInputs.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.MvcApplicationPartsAssemblyInfo.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.RazorAssemblyInfo.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.RazorAssemblyInfo.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/staticwebassets/Practica 1.StaticWebAssets.Manifest.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/staticwebassets/Practica 1.StaticWebAssets.xml
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/scopedcss/bundle/Practica 1.styles.css
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.TagHelpers.input.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.TagHelpers.output.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.RazorCoreGenerate.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Razor/Pages/Privacy.cshtml.g.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Razor/Pages/_ViewImports.cshtml.g.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Razor/Pages/_ViewStart.cshtml.g.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.RazorTargetAssemblyInfo.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.RazorTargetAssemblyInfo.cs
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.Views.pdb
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.dll
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/ref/Practica 1.dll
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.pdb
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.genruntimeconfig.cache
+/home/em-master/C# practice/Practica 1/obj/Debug/net5.0/Practica 1.csproj.CopyComplete
