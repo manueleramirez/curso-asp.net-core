@@ -1,0 +1,71 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+}
+
+<div class="text-center mt-3 mb-5">
+    <h1 class="display-4">Nomina Empleados</h1>
+   
+</div>
+
+<div>
+    <table class="table table-dark table-striped table-bordered">
+        <thead>
+            <tr class=" p-4 text-center m-4">
+                @*nombres, apellidos, cargo, salario mensual, descuento AFP, descuento ARS, descuento ISR, total de descuentos y Salario Neto.*@
+                <th class="table-dark">Nombre</th>
+                <th>Apellido</th>
+                <th>Cargo</th>
+                <th>salario mensual</th>
+                <th>descuento AFP</th>
+                <th>descuento ARS</th>
+                <th>descuento ISR</th>
+                <th>descuento SFS</th>
+                <th>Salario Neto</th>
+                <th>Accion</th>
+
+
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var empleado in Model.ListaEmpleado)
+            {
+            <tr>
+                <td>@empleado.Nombre</td>
+                <td>@empleado.Apellido</td>
+                <td>@empleado.Cargo</td>
+                <td>RD$@empleado.SalarioBruto</td>
+                <td>RD$@empleado.Afp</td>
+                <td>RD$@empleado.Ars</td>
+                <td>RD$@empleado.Isr</td>
+                <td>RD$@empleado.Sfs</td>
+                <td>RD$@empleado.SalarioNeto</td>
+                <td><button asp-page-handler="CalcAFP" class="btn btn-success">Generar</button></td>
+            </tr>
+
+            }
+        </tbody>
+
+        <tfoot class="table-dark">
+            <tr>
+                <td colspan="3" class="text-center">Totales Generados</td>
+                <td>RD$0</td>
+                <td>RD$0</td>
+                <td>RD$0</td>
+                <td>RD$0</td>
+                <td>RD$0</td>
+                <td>RD$0</td>
+
+            </tr>
+
+        </tfoot>
+        
+    </table>
+
+   
+</div>
+
+ 
