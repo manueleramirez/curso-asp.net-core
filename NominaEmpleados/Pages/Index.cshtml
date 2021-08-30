@@ -5,6 +5,8 @@
 
 }
 
+
+@Model.AddAFP()
 <div class="text-center mt-3 mb-5">
     <h1 class="display-4">Nomina Empleados</h1>
    
@@ -24,14 +26,14 @@
                 <th>descuento ISR</th>
                 <th>descuento SFS</th>
                 <th>Salario Neto</th>
-                <th>Accion</th>
+                @*<th>Accion</th>*@
 
 
             </tr>
         </thead>
 
         <tbody>
-            @foreach (var empleado in Model.ListaEmpleado)
+            @foreach (var empleado in Model.)
             {
             <tr>
                 <td>@empleado.Nombre</td>
@@ -43,7 +45,7 @@
                 <td>RD$@empleado.Isr</td>
                 <td>RD$@empleado.Sfs</td>
                 <td>RD$@empleado.SalarioNeto</td>
-                <td><button asp-page-handler="CalcAFP" class="btn btn-success">Generar</button></td>
+                @*<td><button asp-page-handler="CalcAFP" class="btn btn-success">Generar</button></td>*@
             </tr>
 
             }
