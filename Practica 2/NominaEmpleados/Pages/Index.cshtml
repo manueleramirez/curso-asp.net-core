@@ -1,0 +1,59 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+}
+
+
+
+<div class="text-center mt-3 mb-5">
+    <h1 class="display-4">Nomina Empleados</h1>
+   
+</div>
+
+<div>
+    <table class="table table-dark table-striped table-bordered">
+        <thead>
+            <tr class=" p-4 text-center m-4">
+                
+                <th class="table-dark">Nombre</th>
+                <th>Apellido</th>
+                <th>Cargo</th>
+                <th>salario mensual</th>
+                <th>descuento AFP</th>
+                <th>descuento ISR</th>
+                <th>descuento SFS</th>
+                <th>Salario Neto</th>
+
+            </tr>
+        </thead>
+
+        <tbody class="text-center">
+            @foreach (var empleado in Model.ListaEmpleado)
+            {
+            <tr>
+                <td>@empleado.Nombre</td>
+                <td>@empleado.Apellido</td>
+                <td>@empleado.Cargo</td>
+                <td>RD$ @String.Format("{0:n}", empleado.SalarioBruto) </td>
+                <td>RD$@String.Format("{0:n}", empleado.Afp)</td>
+                <td>RD$@String.Format("{0:n}", empleado.Isr)</td>
+                <td>RD$@String.Format("{0:n}", empleado.Sfs)</td>
+                <td>RD$@String.Format("{0:n}", empleado.SalarioNeto)</td>
+                
+            </tr>
+
+            }
+        </tbody>
+
+
+        
+
+        
+    </table>
+
+   
+</div>
+
+ 
